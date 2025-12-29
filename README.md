@@ -86,6 +86,9 @@ This avoids geographic over-weighting while preserving pricing signals
 
 ### 📊 Dashboard Overview
 
+
+<img width="1920" height="1080" alt="ACA PREMIUM DASHBOARD" src="https://github.com/user-attachments/assets/e07ea26b-4088-4fef-b71a-8ed7c368a322" />
+
 **The Power BI dashboard includes:**
 
 🔹 KPI Summary

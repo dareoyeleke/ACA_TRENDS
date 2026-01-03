@@ -31,11 +31,11 @@ Health Insurance Exchange Public Use Files (PUF)
 
 Files Used:
 
-Plan Attributes (Plan-level metadata)
+Plan Attributes (Plan-level metadata) Years 2022-2026
 
-Rate PUFs (Age-based premium pricing)
+Rate PUFs (Age-based premium pricing) Years 2022-2026
 
-🔗 https://www.cms.gov/cciio/resources/data-resources/marketplace-puf
+🔗 https://www.cms.gov/marketplace/resources/data/public-use-files
 
 ## 🧮 Methodology
 **1. Data Preparation**

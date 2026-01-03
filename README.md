@@ -119,7 +119,7 @@ This avoids geographic over-weighting while preserving pricing signals
 
 ## 🧠 Key Insights
 
--  Average ACA premiums increased ~40% from 2022 to 2026.
+-  Average ACA premiums increased ~40% from 2022 to 2026 calculated from Standardized Geographical premiuims for 30 Year Old enrollees 
 
 -  Premium growth varies significantly by state and insurer.
 

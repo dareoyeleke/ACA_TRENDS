@@ -26,7 +26,7 @@ How have average premiums shifted over time?
 
 ### Primary Source:
 
-Centers for Medicare & Medicaid Services (CMS)
+Centers for Medicare & Medicaid Services (CMS) 
 Health Insurance Exchange Public Use Files (PUF)
 
 Files Used:

@@ -40,6 +40,8 @@ Rate PUFs (Age-based premium pricing) Years 2022-2026
 ## 🧮 Methodology
 **1. Data Preparation**
 
+-  Plans and Rates information imported to Jupyter Notebook -aca_notebook.ipynb- 🔗 https://github.com/dareoyeleke/ACA_MARKETPLACE_TRENDS/blob/main/aca_notebook.ipynb
+  
 -  Filtered to individual market plans only
 
 -  Standardized pricing to age 30

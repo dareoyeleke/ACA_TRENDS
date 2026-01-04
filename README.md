@@ -35,7 +35,7 @@ Plan Attributes (Plan-level metadata) Years 2022-2026
 
 Rate PUFs (Age-based premium pricing) Years 2022-2026
 
-🔗 https://www.cms.gov/marketplace/resources/data/public-use-files
+🔗 [https://www.cms.gov/marketplace/resources/data/public-use-files]
 
 ## 🧮 Methodology
 **1. Data Preparation**
@@ -156,6 +156,30 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Compare Marketplace vs Employer-sponsored premiums
 
 -  Add demographic overlays using Census data
+
+
+## ⚙️ How to Reproduce
+### Requirements
+
+-  Data Access Link 🔗 [https://www.cms.gov/marketplace/resources/data/public-use-files]
+
+-  Jupyter Notebook
+  
+-  Power Bi To run CSV files
+
+## Steps
+
+-  Access Data files from 🔗 [https://www.cms.gov/marketplace/resources/data/public-use-files] Plan Attributes (Plan-level metadata) Years 2022-2026 and Rate PUFs (Age-based premium pricing) Years 2022-2026
+
+-  Load source files into Jupyter Notebook
+
+-  Access Python Script -aca_notebook.ipynb- at 🔗 [https://github.com/dareoyeleke/ACA_MARKETPLACE_TRENDS/blob/main/aca_notebook.ipynb]
+
+-  Run Queries to generate Data 
+
+-  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
+
+-  Explore queries and modify filters for deeper analysis
 
 ### 📎 Author
 

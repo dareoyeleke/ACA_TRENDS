@@ -16,7 +16,7 @@ How have ACA marketplace premiums changed from 2022–2026?
 
 How do premiums vary by state and insurer?
 
-Which metal tiers (Bronze, Silver, Gold, etc.) experience the highest costs?
+Which Plan tiers (Bronze, Silver, Gold, etc.) experience the highest costs?
 
 How much variation exists across insurers and geographies?
 
@@ -44,11 +44,11 @@ Rate PUFs (Age-based premium pricing) Years 2022-2026
   
 -  Filtered to individual market plans only
 
--  Standardized pricing to age 30
+-  Standardized pricing to age 30 on rates Datasets 
 
--  Removed duplicate and incomplete records
+-  Removed duplicate and incomplete records for both Tables, after which each datasets were concacted in yearly order
 
--  Normalized plan identifiers across years
+-  Normalized plan identifiers across years and merged across tables selecting only similar plan and rate identifiers
 
 **2. Aggregation Logic**
 
@@ -72,7 +72,7 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  Average premium by state
 
--  Average premium by metal tier
+-  Average premium by plan tier
 
 -  Top insurers by average premium
 
@@ -103,7 +103,7 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  Line chart showing premium growth from 2022–2026
 
--  Breakdown by metal tier
+-  Breakdown by Plan tier
 
 🔹 Geographic Analysis
 
@@ -121,13 +121,14 @@ This avoids geographic over-weighting while preserving pricing signals
 
 ## 🧠 Key Insights
 
--  Average ACA premiums increased ~40% from 2022 to 2026 calculated from Standardized Geographical premiuims for 30 Year Old enrollees 
+-  Average ACA premiums increased ~40% from 2022 to 2026 i.e from $367.97 to $513.68 calculated from Standardized Geographical premiuims for 30 Year Old enrollees (Shown in Average Premium across Years)
 
--  Premium growth varies significantly by state and insurer.
+-  Across State Lines, even with age standardized to 30, Average Yearly Premium show a steep increase from the Highest in West Virginia to the 10th Highest North Carolina with a % increase across between both states, showing geographic variation
 
--  Higher metal tiers consistently exhibit steeper price growth.
+-  Premium growth varies significantly by insurer.
 
--  Geographic variation remains substantial even after standardization.
+-  Higher Plan tiers consistently exhibit steeper price growth. Platinum (%) and Gold (%) plans show steeper increases in rates compared to other Plan tiers (Shown in Average Yearly Premium across Tiers). Compared to High and Low plans 
+
 
 ## 🛠️ Tools Used
 
@@ -177,7 +178,12 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  Run Queries to generate Data 
 
--  CSV's from generated data can be loaded into PowerBI from Visual and Dashboard Creation
+-  The following CSV's from generated data were loaded into PowerBI from Visual and Dashboard Creation
+  -  metrics_avg_by_year.csv to generate 'Yearly Trend of Premiums'
+  -  metrics_avg_by_year_tier.csv to generate 'Average Yearly Premiums across Plan Tiers' Chart. 
+  -  metrics_avg_by_state_latest.csv to generate 'Average Premium by state' chart,  'AVG PREMIUIM 2026' and 'Filed Rate Records' KPI's, and  'Average Premium Per State 2026' Chart 
+  -  metrics_issuer_avg_top.csv to generate 'Top 10 Issuers by Average Premium (22-26)'
+  
 
 -  Explore queries and modify filters for deeper analysis
 

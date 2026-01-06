@@ -134,7 +134,7 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Policy analysts should reweight benchmark plans because of disproportionate inflation in high tiers to discourage disincentivization of Platinum and Gold plan holders from investing in shared cost programs that balance out cost of other tiers.
 -  Insurers will be affected by demand of plan purchases due to disproportionate increase of premium rates, leading to revenue loss over time. Policy Analyst should evaluate brackets and reweight premium rates to avoid losing revenue. 
 -  Average ACA premiums over time out weighs inflation rates by a huge margin, and the biggest increase comes from Platinum and Gold plans, subsidies for shared cost across tiers does not balance out increase in premiums and might lead to plan holders seeking other avenues of insurance such as employee insurance as opposed to ACA plans. The government should adjust subsidies to reflect increase in premiums to avoid holders of lower tier plans from taking on the brunt of higher tier plan holders seeking out alternatives to ACA plans.
--  Geographic Variations will in plan premiums will discourage plan holders from fully commiting to ACA plan across all medical sectors, as the explosion of virtual health has opened other avenues of purchasing health care solutions over the internet, therefore plan holders are not limited to ACA plans bound by state lines and will compare and seek help with cheaper virtual options as opposed to fully subscribing to all healthcare options "vision, dental, prescription, mental health" avaiable through ACA to avoid cost. Insurers should compare alternative virtual cost options to knw and adjust to their competition to avoid losing revenue to virtual care programs.   
+-  Geographic Variations will in plan premiums will discourage plan holders from fully commiting to ACA plan across all medical sectors, as the explosion of virtual health has opened other avenues of purchasing health care solutions over the internet, therefore plan holders are not limited to ACA plans bound by state lines i.e with the exception of PCP's and exams like physical that must be done in person, and will compare and seek help with cheaper virtual options as opposed to fully subscribing to all healthcare options "vision, dental, prescription, mental health" avaiable through ACA to avoid higher cost. Insurers should compare alternative virtual cost options to know and adjust to their competition to avoid losing revenue to virtual care programs.   
 
 ## 🛠️ Tools Used
 
@@ -151,6 +151,8 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Age-standardized to 30; results may differ for other age groups.
 
 -  Does not totally account for subsidies, tax credits, inflation or plan selection behavior.
+
+-  This Analysis does not break down premiums by all forms of healthcare provided i.e "vision, dental, prescription". It also focuses on Inpatient data.  
 
 ## 📈 Future Enhancements
 

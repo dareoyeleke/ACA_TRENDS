@@ -130,6 +130,9 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Higher Plan tiers consistently exhibit steeper price growth. Platinum (%) and Gold (%) plans show steeper increases in rates compared to other Plan tiers (Shown in Average Yearly Premium across Tiers). Compared to High and Low plans 
 
 
+### Recommendations 
+-  Policy analysts should reweight benchmark plans because of disproportionate inflation in high tiers
+
 ## 🛠️ Tools Used
 
 -  Python (Pandas, NumPy)

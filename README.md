@@ -10,6 +10,14 @@ The goal is to understand pricing behavior, market variation, and temporal trend
 
 All premiums are standardized to a 30-year-old enrollee to ensure fair comparison across states and years.
 
+### HOW TO READ THIS PROJECT 
+
+KEY QUESTIONS ADDRESSED ---> METHODOLOGY ---> DASHBOARD OVERVIEW  ---> KEY INSIGHTS ---> RECOMMENDATIONS ---> LIMITATIONS ---> FUTURE ENHANCEMENTS. 
+
+### LASTLY 
+-  Reproducing the project comes last with the 1) Steps to Reproduce 2) Dataset Link access 3) Required tools 4) Methodology 5) CSV's generated for specific visual creation  
+
+
 ## 🧠 Key Questions Answered
 
 How have ACA marketplace premiums changed from 2022–2026?
@@ -183,6 +191,8 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Load source files into Jupyter Notebook
 
 -  Access Python Script -aca_notebook.ipynb- at 🔗 [https://github.com/dareoyeleke/ACA_MARKETPLACE_TRENDS/blob/main/aca_notebook.ipynb]
+
+-  For easier coding flow refer to methodology at the top of the page to understand how cleaning and aggregating data contribute to csv generation from the Jupyter Notebook containing code script
 
 -  Run Queries to generate Data 
 

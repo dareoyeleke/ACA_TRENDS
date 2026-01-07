@@ -1,37 +1,46 @@
 # 📊 ACA Marketplace Premium Trends (2022–2026)
+<br>
 
 Analyzing U.S. Affordable Care Act (ACA) Marketplace premium trends using CMS public data
+<br><br>
 
 ## 📌 Project Overview
-
+<br>
 This project analyzes Affordable Care Act (ACA) Marketplace premium trends across the United States from 2022–2026, focusing on how prices have changed over time, across states, and across insurance providers.
 
 The goal is to understand pricing behavior, market variation, and temporal trends in the individual insurance market using publicly available CMS data.
 
 All premiums are standardized to a 30-year-old enrollee to ensure fair comparison across states and years.
+<br><br>
+## HOW TO READ THIS PROJECT 
 
-### HOW TO READ THIS PROJECT 
+KEY QUESTIONS ADDRESSED    ---> METHODOLOGY   --->   DASHBOARD OVERVIEW  --->   KEY INSIGHTS   --->   RECOMMENDATIONS   --->   LIMITATIONS  --->    FUTURE ENHANCEMENTS. 
+<br><br>
+## LASTLY 
+-  Reproducing the project comes last with the
+1) Steps to Reproduce
+2) Dataset Link access
+3) Required tools
+4) Methodology
+5) CSV's generated for specific visual creation  
 
-KEY QUESTIONS ADDRESSED ---> METHODOLOGY ---> DASHBOARD OVERVIEW  ---> KEY INSIGHTS ---> RECOMMENDATIONS ---> LIMITATIONS ---> FUTURE ENHANCEMENTS. 
-
-### LASTLY 
--  Reproducing the project comes last with the 1) Steps to Reproduce 2) Dataset Link access 3) Required tools 4) Methodology 5) CSV's generated for specific visual creation  
-
-
+<br><br>
 ## 🧠 Key Questions Answered
 
-How have ACA marketplace premiums changed from 2022–2026?
+-  How have ACA marketplace premiums changed from 2022–2026?
 
-How do premiums vary by state and insurer?
+-  How do premiums vary by state and insurer?
 
-Which Plan tiers (Bronze, Silver, Gold, etc.) experience the highest costs?
+-  Which Plan tiers (Bronze, Silver, Gold, etc.) experience the highest costs?
 
-How much variation exists across insurers and geographies?
+-  How much variation exists across insurers and geographies?
 
-How have average premiums shifted over time?
+-  How have average premiums shifted over time?
 
+
+<br><br>
 ## 📂 Data Sources
-
+<br>
 ### Primary Source:
 
 Centers for Medicare & Medicaid Services (CMS) 
@@ -45,6 +54,8 @@ Rate PUFs (Age-based premium pricing) Years 2022-2026
 
 🔗 [https://www.cms.gov/marketplace/resources/data/public-use-files]
 
+
+<br><br>
 ## 🧮 Methodology
 **1. Data Preparation**
 
@@ -94,13 +105,17 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  All dollar values are nominal (not inflation-adjusted)
 
-### 📊 Dashboard Overview
+<br><br>
+
+## 📊 Dashboard Overview
 
 
 <img width="1920" height="1080" alt="ACA PREMIUM DASHBOARD" src="https://github.com/user-attachments/assets/e07ea26b-4088-4fef-b71a-8ed7c368a322" />
+<br><br>
 
 **The Power BI dashboard includes:**
 
+<br>
 🔹 KPI Summary
 
 -  Average premium (latest year)
@@ -126,7 +141,7 @@ This avoids geographic over-weighting while preserving pricing signals
 🔹 Methodology Panel
 
 -  Explains data assumptions and limitations for transparency
-
+<br><br>
 ## 🧠 Key Insights
 
 -  Average ACA premiums increased ~40% from 2022 to 2026 i.e from $367.97 to $513.68 calculated from Standardized Geographical premiuims for 30 Year Old enrollees (Shown in Average Premium across Years)
@@ -137,18 +152,18 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  Higher Plan tiers consistently exhibit steeper price growth. Platinum (44%) and Gold (27%) plans show steeper increases in rates compared to other Plan tiers (Shown in Average Yearly Premium across Tiers). Compared to High(2%) and Low(-180%) plans. The increase in rates do not mirror subsidies for holders of such plan or those in the mirrored tax bracket that purchasing such plans apply to. 
 
-
-### Recommendations 
+<br><br>
+## Recommendations 
 -  While enrollee behavior is not measured, industry evidence suggests several potential responses to premium increases, including plan substitution, care deferral, or alternative care channels.
 
--  Policy analysts should reweight benchmark plans because of disproportionate inflation in high tiers to discourage disincentivization of Platinum and Gold plan holders from investing in shared cost programs that balance out cost of other tiers.
+-  Nominal premium growth is substantial; an inflation-adjusted extension is listed as a future enhancement. Policy analysts should reweight benchmark plans in high tiers to discourage disincentivization of Platinum and Gold plan holders from investing in shared cost programs that balance out cost of other tiers. 
   
--  Insurers will be affected by demand of plan purchases due to disproportionate increase of premium rates, leading to revenue loss over time. Policy Analyst should evaluate brackets and reweight premium rates to avoid losing revenue.
+-  Insurers may be affected by demand of plan purchases due to disproportionate increase of premium rates, leading to revenue loss over time. Policy Analyst should evaluate brackets and reweight premium rates to avoid losing revenue.
   
--  Average ACA premiums over time out weighs inflation rates by a huge margin, and the biggest increase comes from Platinum and Gold plans, subsidies for shared cost across tiers does not balance out increase in premiums and might lead to plan holders seeking other avenues of insurance such as employee insurance as opposed to ACA plans. The government should adjust subsidies to reflect increase in premiums to avoid holders of lower tier plans from taking on the brunt of higher tier plan holders seeking out alternatives to ACA plans.
+-  Nominal premium growth is substantial; an inflation-adjusted extension is listed as a future enhancement. The biggest increase in premiums come from Platinum and Gold plans, subsidies for shared cost across tiers does not balance out increase in premiums and might lead to plan holders seeking other avenues of insurance such as employee insurance as opposed to ACA plans. The government should adjust subsidies to reflect increase in premiums to avoid holders of lower tier plans from taking on the brunt of higher tier plan holders seeking out alternatives to ACA plans.
   
--  Geographic Variations will in plan premiums will discourage plan holders from fully commiting to ACA plan across all medical sectors, as the explosion of virtual health has opened other avenues of purchasing health care solutions over the internet, therefore plan holders are not limited to ACA plans bound by state lines i.e with the exception of PCP's and exams like physical that must be done in person, and will compare and seek help with cheaper virtual options as opposed to fully subscribing to all healthcare options "vision, dental, prescription, mental health" avaiable through ACA to avoid higher cost. Insurers should compare alternative virtual cost options to know and adjust to their competition to avoid losing revenue to virtual care programs.   
-
+-  Geographic Variations in plan premiums may discourage plan holders from fully commiting to ACA plan across all medical sectors, as the explosion of virtual health has opened other avenues of purchasing health care solutions over the internet, therefore plan holders are not limited to ACA plans bound by state lines i.e with the exception of PCP's and exams like physical that must be done in person, and may compare and seek help with cheaper virtual options as opposed to fully subscribing to all healthcare options "vision, dental, prescription, mental health" avaiable through ACA to avoid higher cost. Insurers should compare alternative virtual cost options to know and adjust to their competition to avoid losing revenue to virtual care programs.   
+<br><br>
 ## 🛠️ Tools Used
 
 -  Python (Pandas, NumPy)
@@ -156,7 +171,7 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Power BI
 
 -  CMS Public Use Files
-
+<br><br>
 ## 📌 Limitations
 
 -  Analysis reflects filed rates, not actual enrollment-weighted costs.
@@ -165,10 +180,10 @@ This avoids geographic over-weighting while preserving pricing signals
 
 -  Does not totally account for subsidies, tax credits, inflation or plan selection behavior.
 
--  This Analysis does not break down premiums by all forms of healthcare provided i.e "vision, dental, prescription". It also focuses on Inpatient data.
+-  This Analysis does not break down premiums by all forms of healthcare provided i.e "vision, dental, prescription". It also focuses on individual market filings only.
 
 -  Although alternative care options (e.g., virtual care, employer-sponsored care) are discussed as contextual responses, this analysis does not measure utilization shifts and makes no comparative claims between care channels.
-
+<br><br>
 ## 📈 Future Enhancements
 
 -  Incorporate enrollment-weighted premiums
@@ -180,7 +195,7 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Compare Marketplace vs Employer-sponsored premiums
 
 -  Add demographic overlays using Census data
-
+<br><br>
 
 ## ⚙️ How to Reproduce
 ### Requirements
@@ -190,7 +205,7 @@ This avoids geographic over-weighting while preserving pricing signals
 -  Jupyter Notebook
   
 -  Power Bi To run CSV files
-
+<br><br>
 ## Steps
 
 -  Access Data files from 🔗 [https://www.cms.gov/marketplace/resources/data/public-use-files] Plan Attributes (Plan-level metadata) Years 2022-2026 and Rate PUFs (Age-based premium pricing) Years 2022-2026
@@ -214,8 +229,8 @@ This avoids geographic over-weighting while preserving pricing signals
   
 
 -  Explore queries and modify filters for deeper analysis
-
-### 📎 Author
+<br><br>
+## 📎 Author
 
 [Dare Oyeleke]
 Data Analyst | Healthcare Analytics
